@@ -140,7 +140,7 @@ public:
 
         bech32_hrp = "btm";
 
-        vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
+        //vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
@@ -232,8 +232,8 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x3cb449c707020578c38f289260d42d5c48343002de85ec23af412d166b4fcc34"));
         assert(genesis.hashMerkleRoot == uint256S("0x5ea74655258e58d6226c6467a2d56838252884d8fab30a072eaaea68930107f1"));
 
-        vFixedSeeds.clear();
-        vSeeds.clear();
+        //vFixedSeeds.clear();
+        //vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
         //vSeeds.emplace_back("testnet-seed.bitmoneytools.com");
         //vSeeds.emplace_back("seed-b.bitmoney.loshan.co.uk");
@@ -248,7 +248,7 @@ public:
 
         bech32_hrp = "tbtm";
 
-        vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
+        //vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
 
         fDefaultConsistencyChecks = false;
         fRequireStandard = false;
@@ -321,8 +321,8 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x543ded9870979ee934a474b2db4b345f56a803d50835fa8d7e3b8ace6b07c967"));
         assert(genesis.hashMerkleRoot == uint256S("0x5ea74655258e58d6226c6467a2d56838252884d8fab30a072eaaea68930107f1"));
 
-        vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
-        vSeeds.clear();      //!< Regtest mode doesn't have any DNS seeds.
+        //vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
+        //vSeeds.clear();      //!< Regtest mode doesn't have any DNS seeds.
 
         fDefaultConsistencyChecks = true;
         fRequireStandard = false;
